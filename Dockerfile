@@ -1,4 +1,4 @@
-FROM risingstack/alpine:3.4-v4.4.4-3.6.1
+FROM openjdk:8-jdk-alpine
 
 ARG NPM_TOKEN
 ENV PORT 3001
