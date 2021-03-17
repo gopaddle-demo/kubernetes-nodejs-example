@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM node:14.9.0
 
 ARG NPM_TOKEN
 ENV PORT 3001
